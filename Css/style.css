@@ -1,0 +1,350 @@
+/* Start Global section */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --main-color: #00D5EE;
+}
+
+/* End Global section */
+
+/* Start Nav Section */
+ .navbar {
+    background-color: #00000067;
+    padding: 15px 0; 
+    border-bottom: 1px solid #fff;
+}
+.navbar .navbar-brand img {
+    width: 100px;
+}
+.navbar  a ,.navbar .navbar-nav .nav-item a {
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 0 12px;
+
+}
+.navbar-nav::after {
+    content: '';
+    width: 1px;
+    height: 78px;
+    background-color: #fff ;
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+.navbar .icon a:hover {
+color: #ffffff4b;
+} 
+/* End Nav Section */
+
+/* Start Header Section */
+
+.imgy {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Image/bg-image-28.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+}
+.imgy2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Image/bg-image-29.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+}
+.carousel .carousel-indicators {
+    transform: translateY(-80px);
+}
+#Home .arrow-icon {
+    border: 2px solid #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+    transition: 1s all;
+ 
+}
+#Home .arrow-icon:hover,#Home .arrow-icon2:hover {
+ background-color: #fff;
+ color: #000
+}
+#Home .arrow-icon2 {
+    border: 2px solid #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(50%);
+    transition: 1s all;
+}
+
+.carousel-inner .text {
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+}
+.carousel-inner .text h1 {
+    font-weight: 700;
+    font-size: 100px;
+}
+.style {
+    background-color: var(--main-color);
+    color: #fff;
+} 
+
+/* End header section */
+
+/* Start About section */
+.about {
+    border-bottom: 1px solid #7878782d;
+}
+.about-text h6 {
+    font-size: 13px;
+    font-weight: 500;
+}
+.about-text p {
+    font-size: 20px;
+    font-weight: 300;
+    width: 63%;
+}
+.about .about-text span.animation::after {
+    content:' |';
+    color: var(--main-color);
+    animation-name: typing;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing {
+0% {
+        content: 'soft |'
+    }
+
+25% {
+        content: 'software |'
+    }
+
+35% {
+        content: ' |'
+    }
+
+    50% {
+        content: 'Ap |'
+    } 
+    55% {
+        content: 'Apps |'
+    }  
+    60% {
+        content: ' |'
+    }   
+    75% {
+        content: 'Websi |'
+    }   
+    90% {
+        content: 'Websites |'
+    }   
+    100%{
+        content: ' |'
+    }
+}
+.about-text button {
+font-size: 11px !important;
+font-weight: 500;
+}
+
+/* End About section */
+
+
+/* Start Team section */
+.team-head span {
+    font-size: 65px;
+    font-weight: bold;
+    color:rgba(128, 128, 128, 0.274)
+}
+.team-head h2 {
+    font-size: 38px;
+    font-weight: 700;
+    left: 50%;
+    bottom: 9px;
+    transform: translateX(-50%);
+}
+.layer {
+    padding: 10px;
+    top: 40px;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: #00d6eeb9;
+    opacity: 0; 
+    transition: all 0.5s;                                                                                                                                                                                                                                                                                                           tion: all 0.5s;
+}
+.team .content:hover .layer {
+    opacity: 1;
+    top:0;
+}
+.team .layer .icon a {
+ padding-left: 7px;   
+ color: #fff;
+ font-size: 13px;
+}
+.team .layer .text h4 {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.team .layer .text span {
+color: #fff;
+font-size: 10px;
+}
+/* End Team section */
+
+/* Start Service section */
+.service {
+    background-color: rgb(97, 97, 97);
+}
+.service .title h4 {
+    font-size: 13px;
+    font-weight: 400;
+}
+.service ul li {
+    margin-bottom: 20px;
+}
+/* End service section  */
+
+/* Start pricing section */
+.pricing,.works {
+    background-color: #F7F7F7;
+}
+.pricing .item {
+    background-color: #fff;
+}
+.pricing .item span {
+    top: -3px;
+    left: 0;
+    font-size: 17px;
+}
+.pricing .item .design h2 {
+    font-size: 50px;
+}
+.pricing .item .design::after {
+    content:'';
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    width: 85%;
+    height: 1px;
+    border-bottom: 1px solid gray;
+}
+.pricing .item h4 span {
+    font-size: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+position: absolute;
+left: 60%;
+background-color: var(--main-color);
+top: 5px;
+}
+h2.color {
+    color: var(--main-color);
+}
+.pricing  div.high {
+transform: scale(1.1);
+}
+.pricing .item ul {
+    list-style-type: none;
+    
+}
+.pricing .item ul li {
+    margin-bottom: 15px;
+}
+.pricing .item ul li:last-child{
+    margin-bottom: 7px;
+}
+.pricing .item ul li span {
+    font-size: 15px;
+}
+.pricing .item button {
+    font-size: 13px;
+}
+/* End pricing section */
+
+/* Start works section */
+.gallery {
+    background-color: #fff;
+}
+.works .carousel-indicators {
+    transform: translateY(0);
+}
+.arrow-icon4 {
+    position: absolute;
+    right: 20px;
+    padding: 0 10px;
+    transition: all 0.5;
+}
+.arrow-icon3 {
+    position: absolute;
+    left: 30px;
+    padding: 0 10px;
+    transition: all 0.5;
+}
+.works .fa-arrow-left:before,.works .fa-arrow-right:before {
+    color:rgb(97, 97, 97);
+    font-size: 25px;
+    transition: all 0.3s;
+}
+.arrow-icon3:hover {
+    left: 20px;
+}
+.arrow-icon4:hover {
+    right: 10px;
+}
+.works .fa-arrow-left:hover::before ,.works .fa-arrow-right:hover::before {
+    color:var(--main-color);
+}
+
+.works .carousel-indicators [data-bs-target]  {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+   background-color: gray;
+    transition: all 0.5s;
+}
+.carousel-indicators .active {
+    background-color: var(--main-color) !important;
+}
+
+
+.gallery img {
+    width: 90px;
+    left: 50%;  
+    top: -50px;
+    transform: translateX(-50%);
+}
+.gallery h4 {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 10px 0;
+}
+.gallery span {
+    font-weight: 500;
+        font-size: 12px;
+    color: #787878;
+}
+.gallery p {
+    width: 65%;
+}
+/* End works section */
+
+/* Start  contact section */
+.contact .team-head h2 {
+    font-size: 38px;
+    font-weight: 600;
+    left: 22%;
+    bottom: 9px; 
+}
+
+/* End contact section */

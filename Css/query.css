@@ -1,0 +1,114 @@
+/* Header */
+@media (max-width: 991.98px) {
+.carousel-inner .text h1 {
+        font-size: 80px;
+    }
+}
+@media (max-width: 767.98px) {
+.carousel-inner .text h1 {
+        font-size: 60px;
+    }
+ #Home .arrow-icon,#Home .arrow-icon2 {
+            display: none;
+     }
+
+}
+
+@media (max-width: 575.98px) {
+    .carousel-inner .text h1 {
+            font-size: 30px;
+        }
+}
+/* pricing */
+@media (max-width: 991.98px) {
+    .pricing div.high {
+            transform: scale(1);
+        }
+       
+}
+
+ 
+/* Team */
+@media screen and (max-width: 766px) {
+    .team-head h2 {
+        font-size: 20px;
+    }
+    .team-head span {
+            font-size: 50px;
+        }
+  .team .content {
+            margin-top: 8px;
+        }
+
+}
+/* .service */
+@media (min-width: 766px) and (max-width: 991.98px) {
+   .service .title h4 {
+   font-size: 10px;
+font-weight: 900;
+
+}
+
+.service ul li {
+   
+    font-size: 13px;
+    font-weight: 700;
+}
+}
+/* Works */ 
+@media screen and (max-width: 766px) {
+    .works .arrow-box {
+        display: none;
+    }
+}
+
+/* Contact */
+@media (max-width: 1199.98px) {
+    .contact .team-head h2 {
+            font-size: 33px;
+                font-weight: 600;
+                left: 22%;
+                bottom: 9px;
+        }
+}
+@media (max-width: 991.98px) {
+    .contact .team-head h2 {
+            font-size: 32px;
+            font-weight: 600;
+            left: 25%;
+            bottom: 9px;
+        }
+}
+@media (max-width: 767.98px) {
+    .contact .team-head h2 {
+            font-size: 28px;
+            font-weight: 600;
+            left: 14%;
+            bottom: 8px;
+        }
+}
+
+@media (max-width: 575.98px) {
+    .contact .team-head h2 {
+            font-size: 25px;
+            font-weight: 600;
+            left: 17%;
+            bottom: 8px;
+        }
+}
+@media (max-width: 447px) {
+    .contact .team-head h2 {
+            font-size: 20px;
+            font-weight: 600;
+            left: 18%;
+            bottom: 8px;
+        }
+}
+@media (max-width: 350px) {
+    .contact .team-head h2 {
+            font-size: 18px;
+            font-weight: 600;
+            left: 22%;
+            bottom: 8px;
+        }
+}
